@@ -45,7 +45,6 @@ urlpatterns = [
     path('blang/', views.index, name="blang"),
     path('kalkulator/', views.kalkulator, name="kalkulator"),
     path('clock/',views.server_time,name="clock"),
-    path('youtube/',views.youtube,name="youtube"),
     path('morse/',views.morse,name="morse"),
     path('prima/',views.prima,name="prima"),
     path('translator/',views.translator,name="translator"),
